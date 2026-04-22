@@ -1,0 +1,14 @@
+{
+  "name": "valeriy-dev-automation-site",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Corporate website for Valeriy-Dev Automation.",
+  "scripts": {
+    "serve": "python -m http.server 8080",
+    "test": "playwright test",
+    "test:install": "playwright install --with-deps chromium"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.2"
+  }
+}

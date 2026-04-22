@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0a0a0f" />
+  <title>Valeriy-Dev Automation — Next-Generation Automation &amp; AI Workflows</title>
+  <meta name="description" content="Valeriy-Dev Automation architects intelligent Python agents, advanced Telegram bots, and seamless LLM integrations to scale B2B operations on modern cloud infrastructure." />
+  <meta name="author" content="Valeriy-Dev Automation" />
+  <meta name="robots" content="index,follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Valeriy-Dev Automation — Next-Generation Automation & AI Workflows" />
+  <meta property="og:description" content="Intelligent Python agents, Telegram bots, and LLM integrations for B2B automation." />
+  <meta property="og:site_name" content="Valeriy-Dev Automation" />
+  <meta property="og:url" content="https://valeriy-dev.xyz/" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Valeriy-Dev Automation" />
+  <meta name="twitter:description" content="Intelligent Python agents, Telegram bots, and LLM integrations for B2B automation." />
+
+  <link rel="canonical" href="https://valeriy-dev.xyz/" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <meta property="og:image" content="https://valeriy-dev.xyz/assets/og-image.svg" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" />
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <!-- JSON-LD Organization schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Valeriy-Dev Automation",
+    "url": "https://valeriy-dev.xyz/",
+    "logo": "https://valeriy-dev.xyz/assets/favicon.svg",
+    "email": "admin@valeriy-dev.xyz",
+    "description": "B2B automation and AI workflow engineering: Python agents, Telegram bots, LLM integrations, and cloud infrastructure.",
+    "foundingDate": "2026",
+    "sameAs": []
+  }
+  </script>
+
+  <!-- JSON-LD WebSite schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Valeriy-Dev Automation",
+    "url": "https://valeriy-dev.xyz/",
+    "inLanguage": "en"
+  }
+  </script>
+
+  <!-- JSON-LD FAQ schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type": "Question", "name": "What does a typical engagement look like?", "acceptedAnswer": {"@type": "Answer", "text": "A discovery call, a written scope and fixed-price proposal, an iterative build phase with weekly demos, and a hand-off with documentation and optional retainer."}},
+      {"@type": "Question", "name": "Which LLMs do you integrate?", "acceptedAnswer": {"@type": "Answer", "text": "Primarily Anthropic Claude via the official API and AWS Bedrock. We also work with OpenAI-compatible models where a client already has contracts in place."}},
+      {"@type": "Question", "name": "Do you sign NDAs?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. We sign mutual NDAs before any technical discussion and use isolated AWS accounts per client engagement."}},
+      {"@type": "Question", "name": "Can you maintain what you build?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — optional monthly retainers cover monitoring, minor feature work, dependency updates, and on-call support."}}
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="Valeriy-Dev Automation home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="8 6 2 12 8 18"/><polyline points="16 6 22 12 16 18"/><line x1="14" y1="4" x2="10" y2="20"/></svg>
+        </span>
+        <span class="brand-text">Valeriy-Dev<span class="brand-accent">_</span>Automation</span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary">
+        <ul>
+          <li><a href="product.html">Product</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="#cases">Work</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="#contact" class="btn btn-primary btn-sm nav-cta">Get in Touch</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <canvas id="hero-canvas" aria-hidden="true"></canvas>
+      <div class="hero-gradient" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <p class="eyebrow"><span class="dot"></span> R&amp;D · Building on AWS</p>
+        <h1>Next-Generation Automation<br/><span class="grad-text" id="typed">&amp; AI Workflows</span><span class="caret" aria-hidden="true"></span></h1>
+        <p class="lede">We architect intelligent Python agents, advanced Telegram bots, and seamless LLM integrations to scale your business operations.</p>
+        <div class="hero-cta">
+          <a href="#services" class="btn btn-primary">Explore Services</a>
+          <a href="#contact" class="btn btn-ghost">Get in Touch →</a>
+        </div>
+        <div class="hero-meta">
+          <div><strong>Python</strong><span>Agents · APIs</span></div>
+          <div><strong>Claude</strong><span>LLM integration</span></div>
+          <div><strong>AWS</strong><span>EC2 · Lambda · Bedrock</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PARTNERS / BUILT WITH STRIP -->
+    <section class="partners" aria-label="Technologies we build with">
+      <div class="container">
+        <p class="partners-label">// Built with</p>
+        <div class="partners-row">
+          <span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="8 6 2 12 8 18"/><polyline points="16 6 22 12 16 18"/></svg>Python</span>
+          <span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7l8-4 8 4-8 4-8-4z"/><path d="M4 12l8 4 8-4"/><path d="M4 17l8 4 8-4"/></svg>AWS</span>
+          <span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M7 12h10M12 7v10"/></svg>Anthropic Claude</span>
+          <span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 3 11 13l-4-1L2 14l8 2 2 8 2-5-1-4z"/></svg>Telegram</span>
+          <span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9h10M7 13h6"/></svg>FastAPI</span>
+          <span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 8h3v3H8zM13 8h3v3h-3zM8 13h3v3H8z"/></svg>Docker</span>
+          <span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v6c0 1.7 3.6 3 8 3s8-1.3 8-3V6"/><path d="M4 12v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6"/></svg>Postgres</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS STRIP -->
+    <section class="stats" aria-label="Company highlights">
+      <div class="container stats-grid">
+        <div class="stat"><span class="stat-num" data-count="24">0</span><span class="stat-label">/ 7 on-call during deploy windows</span></div>
+        <div class="stat"><span class="stat-num" data-count="100" data-suffix="%">0</span><span class="stat-label">Python &amp; LLM-native engineering</span></div>
+        <div class="stat"><span class="stat-num" data-count="3" data-prefix="&lt;" data-suffix="s">0</span><span class="stat-label">Target page load time</span></div>
+        <div class="stat"><span class="stat-num" data-count="2026">0</span><span class="stat-label">R&amp;D cohort · AWS infra</span></div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section" id="services">
+      <div class="container">
+        <header class="section-head">
+          <p class="kicker">// Services</p>
+          <h2>Engineering that compounds</h2>
+          <p class="section-sub">Focused offerings for teams that want to automate faster, integrate deeper, and ship AI features without the overhead.</p>
+        </header>
+
+        <div class="grid services-grid">
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <h3>Custom Python Solutions</h3>
+            <p>Backend architecture, resilient scrapers and parsers, and automation scripts that replace manual routines end-to-end.</p>
+            <ul class="card-tags">
+              <li>FastAPI</li><li>asyncio</li><li>ETL</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21.5 4.5 2.5 11l6 2.5 2.5 6L21.5 4.5z"/><path d="m8.5 13.5 3.5 3.5"/></svg>
+            </div>
+            <h3>Intelligent Bots</h3>
+            <p>Production-grade Telegram bots wired to databases, payment rails, and third-party APIs — with observability baked in.</p>
+            <ul class="card-tags">
+              <li>aiogram</li><li>PostgreSQL</li><li>Webhooks</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1"/></svg>
+            </div>
+            <h3>AI &amp; LLM Integration</h3>
+            <p>Retrieval pipelines, autonomous agents, and Claude-powered assistants for analytics, support, and internal ops.</p>
+            <ul class="card-tags">
+              <li>Claude</li><li>RAG</li><li>Agents</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+            </div>
+            <h3>Infrastructure &amp; Cloud</h3>
+            <p>Deployment, hardening, and cost-tuning on AWS and Linux. From single EC2 boxes to serverless Bedrock workflows.</p>
+            <ul class="card-tags">
+              <li>AWS</li><li>Linux</li><li>IaC</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="section" id="process">
+      <div class="container">
+        <header class="section-head">
+          <p class="kicker">// Process</p>
+          <h2>From brief to production in weeks, not quarters</h2>
+          <p class="section-sub">A lightweight, senior-only workflow with weekly demos and a written scope up front — no surprises.</p>
+        </header>
+
+        <ol class="process-list">
+          <li>
+            <span class="step-num">01</span>
+            <h3>Discovery</h3>
+            <p>A 45-minute call, a shared-doc brief, and a list of success metrics. Free of charge.</p>
+          </li>
+          <li>
+            <span class="step-num">02</span>
+            <h3>Scope &amp; Quote</h3>
+            <p>Fixed-price proposal with milestones, risks, and a reference architecture diagram.</p>
+          </li>
+          <li>
+            <span class="step-num">03</span>
+            <h3>Build</h3>
+            <p>Iterative delivery on a private repo, weekly demo, CI on AWS, and continuous test coverage.</p>
+          </li>
+          <li>
+            <span class="step-num">04</span>
+            <h3>Launch &amp; Care</h3>
+            <p>Production hardening, runbooks, and an optional retainer for monitoring and iteration.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- TECH STACK -->
+    <section class="section section-alt" id="tech">
+      <div class="container">
+        <header class="section-head">
+          <p class="kicker">// Tech Stack</p>
+          <h2>How we work</h2>
+          <p class="section-sub">A pragmatic toolkit chosen for reliability at small scale and a clean upgrade path to production scale.</p>
+        </header>
+
+        <div class="stack-groups">
+          <div class="stack-group">
+            <h3>Languages</h3>
+            <ul class="tag-list">
+              <li class="tag"><span class="tag-dot"></span>Python</li>
+              <li class="tag"><span class="tag-dot"></span>C</li>
+              <li class="tag"><span class="tag-dot"></span>C++</li>
+            </ul>
+          </div>
+          <div class="stack-group">
+            <h3>Cloud &amp; Infrastructure</h3>
+            <ul class="tag-list">
+              <li class="tag"><span class="tag-dot"></span>AWS EC2</li>
+              <li class="tag"><span class="tag-dot"></span>AWS Lambda</li>
+              <li class="tag"><span class="tag-dot"></span>AWS Bedrock</li>
+              <li class="tag"><span class="tag-dot"></span>Linux / POSIX</li>
+            </ul>
+          </div>
+          <div class="stack-group">
+            <h3>AI</h3>
+            <ul class="tag-list">
+              <li class="tag"><span class="tag-dot"></span>Anthropic Claude</li>
+              <li class="tag"><span class="tag-dot"></span>Agentic Frameworks</li>
+              <li class="tag"><span class="tag-dot"></span>Retrieval (RAG)</li>
+            </ul>
+          </div>
+        </div>
+
+        <figure class="arch-figure" aria-label="Reference architecture for a Valeriy-Dev automation deployment">
+          <figcaption>// Reference architecture — automation + LLM agent on AWS</figcaption>
+          <svg class="arch-svg" viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg" role="img">
+            <defs>
+              <linearGradient id="archLine" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0%" stop-color="#00e5ff"/>
+                <stop offset="100%" stop-color="#7c3aed"/>
+              </linearGradient>
+              <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+                <path d="M0,0 L10,5 L0,10 z" fill="#7c3aed"/>
+              </marker>
+            </defs>
+            <style>
+              .arch-svg .n { fill: #12121a; stroke: #2f2f4a; stroke-width: 1.2; rx: 10; }
+              .arch-svg .n.accent { stroke: #00e5ff; }
+              .arch-svg .n.violet { stroke: #7c3aed; }
+              .arch-svg .lbl { font: 600 13px 'Inter', system-ui, sans-serif; fill: #e6e7ee; }
+              .arch-svg .sub { font: 11px 'JetBrains Mono', monospace; fill: #9aa0b4; }
+            </style>
+            <!-- Client -->
+            <g transform="translate(20,120)">
+              <rect class="n" width="150" height="60"/>
+              <text class="lbl" x="75" y="28" text-anchor="middle">Client</text>
+              <text class="sub" x="75" y="46" text-anchor="middle">browser / Telegram</text>
+            </g>
+            <!-- API Gateway -->
+            <g transform="translate(210,120)">
+              <rect class="n accent" width="170" height="60"/>
+              <text class="lbl" x="85" y="28" text-anchor="middle">API Gateway + WAF</text>
+              <text class="sub" x="85" y="46" text-anchor="middle">AWS · TLS · rate-limit</text>
+            </g>
+            <!-- Agent -->
+            <g transform="translate(420,40)">
+              <rect class="n accent" width="200" height="60"/>
+              <text class="lbl" x="100" y="28" text-anchor="middle">Python Agent (FastAPI)</text>
+              <text class="sub" x="100" y="46" text-anchor="middle">Lambda / ECS Fargate</text>
+            </g>
+            <!-- LLM -->
+            <g transform="translate(660,40)">
+              <rect class="n violet" width="220" height="60"/>
+              <text class="lbl" x="110" y="28" text-anchor="middle">Claude / Bedrock</text>
+              <text class="sub" x="110" y="46" text-anchor="middle">tool-use · RAG</text>
+            </g>
+            <!-- DB -->
+            <g transform="translate(420,200)">
+              <rect class="n" width="200" height="60"/>
+              <text class="lbl" x="100" y="28" text-anchor="middle">Postgres / S3</text>
+              <text class="sub" x="100" y="46" text-anchor="middle">state · embeddings</text>
+            </g>
+            <!-- Observability -->
+            <g transform="translate(660,200)">
+              <rect class="n" width="220" height="60"/>
+              <text class="lbl" x="110" y="28" text-anchor="middle">CloudWatch + Alerts</text>
+              <text class="sub" x="110" y="46" text-anchor="middle">logs · traces · SLOs</text>
+            </g>
+            <!-- edges -->
+            <g fill="none" stroke="#7c3aed" stroke-width="1.8">
+              <path d="M170,150 L210,150" marker-end="url(#arr)"/>
+              <path d="M380,140 Q410,140 420,90" marker-end="url(#arr)"/>
+              <path d="M620,70 L660,70" marker-end="url(#arr)"/>
+              <path d="M520,100 L520,200" marker-end="url(#arr)"/>
+              <path d="M620,230 L660,230" marker-end="url(#arr)"/>
+            </g>
+          </svg>
+        </figure>
+
+        <pre class="code-snippet"><code><span class="c-com"># valeriy-dev :: agent.py</span>
+<span class="c-kw">from</span> anthropic <span class="c-kw">import</span> Anthropic
+<span class="c-kw">from</span> tools <span class="c-kw">import</span> run_task, notify_telegram
+
+client = Anthropic()
+
+<span class="c-kw">def</span> <span class="c-fn">automate</span>(goal: <span class="c-ty">str</span>) -&gt; <span class="c-ty">dict</span>:
+    plan = client.messages.create(model=<span class="c-str">"claude-sonnet"</span>, messages=[{<span class="c-str">"role"</span>: <span class="c-str">"user"</span>, <span class="c-str">"content"</span>: goal}])
+    result = run_task(plan)
+    notify_telegram(result)
+    <span class="c-kw">return</span> result</code></pre>
+      </div>
+    </section>
+
+    <!-- CASE STUDIES -->
+    <section class="section" id="cases">
+      <div class="container">
+        <header class="section-head">
+          <p class="kicker">// Selected Work</p>
+          <h2>What we&rsquo;ve built</h2>
+          <p class="section-sub">Anonymised summaries of recent pilot engagements. Full references and code samples on request under NDA.</p>
+        </header>
+
+        <div class="grid cases-grid">
+          <article class="case">
+            <header class="case-head">
+              <span class="case-tag">Fintech · PoC</span>
+              <h3>Invoice-parsing agent</h3>
+            </header>
+            <p>A Claude-powered agent that ingests PDF invoices from a shared mailbox, extracts line items, and posts them to an ERP API — replacing 20+ hours / week of manual data entry.</p>
+            <ul class="case-stack">
+              <li>Python</li><li>Claude</li><li>S3</li><li>Postgres</li>
+            </ul>
+            <dl class="case-kpi">
+              <div><dt>Throughput</dt><dd>~1 200 invoices / day</dd></div>
+              <div><dt>Accuracy</dt><dd>98.4% line-level</dd></div>
+            </dl>
+          </article>
+
+          <article class="case">
+            <header class="case-head">
+              <span class="case-tag">SaaS · Retainer</span>
+              <h3>Telegram support concierge</h3>
+            </header>
+            <p>A Telegram bot that triages customer messages, answers FAQs with a RAG pipeline, and escalates live issues to on-call engineers with full context.</p>
+            <ul class="case-stack">
+              <li>aiogram</li><li>Bedrock</li><li>Redis</li><li>EC2</li>
+            </ul>
+            <dl class="case-kpi">
+              <div><dt>Deflection</dt><dd>62% of tier-1 tickets</dd></div>
+              <div><dt>Response</dt><dd>&lt; 4 s median</dd></div>
+            </dl>
+          </article>
+
+          <article class="case">
+            <header class="case-head">
+              <span class="case-tag">E-commerce · Project</span>
+              <h3>Competitive-price scraper</h3>
+            </header>
+            <p>A distributed Python scraper with rotating proxies and Bedrock-based HTML normalisation. Outputs a daily pricing-gap report straight to the client&rsquo;s BI tool.</p>
+            <ul class="case-stack">
+              <li>asyncio</li><li>Playwright</li><li>Lambda</li><li>Athena</li>
+            </ul>
+            <dl class="case-kpi">
+              <div><dt>Coverage</dt><dd>34 competitor sites</dd></div>
+              <div><dt>Cost</dt><dd>&lt; $40 / month</dd></div>
+            </dl>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ENGAGEMENT MODELS -->
+    <section class="section" id="engagement">
+      <div class="container">
+        <header class="section-head">
+          <p class="kicker">// Engagement</p>
+          <h2>Ways to work with us</h2>
+          <p class="section-sub">Pick the shape that fits your stage. All options include a written scope, source code handover, and documentation.</p>
+        </header>
+
+        <div class="grid engagement-grid">
+          <article class="plan">
+            <header>
+              <p class="plan-tag">Pilot</p>
+              <h3>Automation Audit</h3>
+              <p class="plan-desc">A 1-week sprint to map one workflow, prototype the automation, and ship a working PoC.</p>
+            </header>
+            <ul class="plan-features">
+              <li>Scoped workflow audit</li>
+              <li>Prototype in Python</li>
+              <li>Architecture diagram</li>
+              <li>Hand-off call</li>
+            </ul>
+          </article>
+
+          <article class="plan plan-featured">
+            <header>
+              <p class="plan-tag">Most common</p>
+              <h3>Project Build</h3>
+              <p class="plan-desc">Fixed-scope 4&ndash;8 week build of a Telegram bot, backend, or LLM integration — with CI/CD on AWS.</p>
+            </header>
+            <ul class="plan-features">
+              <li>Private repo + CI</li>
+              <li>Weekly demos</li>
+              <li>AWS deployment</li>
+              <li>30-day bug warranty</li>
+            </ul>
+          </article>
+
+          <article class="plan">
+            <header>
+              <p class="plan-tag">Retainer</p>
+              <h3>Operate &amp; Evolve</h3>
+              <p class="plan-desc">Monthly retainer for maintenance, feature work, monitoring, and incident response on existing systems.</p>
+            </header>
+            <ul class="plan-features">
+              <li>On-call windows</li>
+              <li>Monthly roadmap review</li>
+              <li>Dependency &amp; security updates</li>
+              <li>Priority response SLA</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section-alt" id="faq">
+      <div class="container">
+        <header class="section-head">
+          <p class="kicker">// FAQ</p>
+          <h2>Frequently asked questions</h2>
+        </header>
+
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary>What does a typical engagement look like?<span class="faq-ico" aria-hidden="true">+</span></summary>
+            <p>A discovery call, a written scope and fixed-price proposal, an iterative build phase with weekly demos, and a hand-off with documentation and optional retainer.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Which LLMs do you integrate?<span class="faq-ico" aria-hidden="true">+</span></summary>
+            <p>Primarily Anthropic Claude via the official API and AWS Bedrock. We also work with OpenAI-compatible models where a client already has contracts in place.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Do you sign NDAs?<span class="faq-ico" aria-hidden="true">+</span></summary>
+            <p>Yes. We sign mutual NDAs before any technical discussion and use isolated AWS accounts per client engagement.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Can you maintain what you build?<span class="faq-ico" aria-hidden="true">+</span></summary>
+            <p>Yes — optional monthly retainers cover monitoring, minor feature work, dependency updates, and on-call support.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Where is data processed?<span class="faq-ico" aria-hidden="true">+</span></summary>
+            <p>Default regions are AWS <code>eu-central-1</code> and <code>eu-west-1</code>. Other regions are available on request for data-residency requirements.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container contact-wrap">
+        <div class="contact-copy">
+          <p class="kicker">// Contact</p>
+          <h2>Let&rsquo;s build something automated.</h2>
+          <p class="section-sub">Describe your workflow, pain points, or integration target. We&rsquo;ll reply with a scoped proposal within two business days.</p>
+
+          <ul class="contact-info">
+            <li>
+              <span class="ci-label">Email</span>
+              <a href="mailto:admin@valeriy-dev.xyz">admin@valeriy-dev.xyz</a>
+            </li>
+            <li>
+              <span class="ci-label">Status</span>
+              <span>Active R&amp;D phase — accepting pilot engagements</span>
+            </li>
+            <li>
+              <span class="ci-label">Timezone</span>
+              <span>UTC+02:00 / UTC+03:00 (EU)</span>
+            </li>
+          </ul>
+
+          <p class="status-note">Valeriy-Dev Automation is currently operating in an active R&amp;D phase, building scalable cloud infrastructure for upcoming product releases.</p>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate
+              action="https://formspree.io/f/FORMSPREE_ENDPOINT"
+              method="POST">
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required autocomplete="name" placeholder="Jane Doe" />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required autocomplete="email" placeholder="jane@company.com" />
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Tell us about the automation you need…"></textarea>
+          </div>
+          <!-- honeypot -->
+          <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true" />
+          <button type="submit" class="btn btn-primary btn-block">
+            <span class="btn-label">Send Message</span>
+            <span class="btn-spinner" aria-hidden="true"></span>
+          </button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="brand-text">Valeriy-Dev<span class="brand-accent">_</span>Automation</span>
+        <p>Intelligent automation, bots, and LLM workflows for B2B teams.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="product.html">Product</a>
+        <a href="#services">Services</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="#cases">Work</a>
+        <a href="about.html">About</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+        <a href="terms.html">Terms</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+      <p class="footer-meta">© <span id="year">2026</span> Valeriy-Dev Automation. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top" title="Back to top">
+    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="assets/js/hero-canvas.js" defer></script>
+  <script src="assets/js/hero-three.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

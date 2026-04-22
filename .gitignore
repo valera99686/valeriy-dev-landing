@@ -1,0 +1,13 @@
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+node_modules/
+.env
+backend/.env
+backend/data/
+backend/__pycache__/
+playwright-report/
+test-results/
+.lighthouseci/

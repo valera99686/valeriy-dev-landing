@@ -1,0 +1,9 @@
+# Everything is owned by the project maintainer by default.
+*                       @valeriy-dev
+
+# Backend service
+/backend/               @valeriy-dev
+
+# Infrastructure
+/infra/                 @valeriy-dev
+/.github/workflows/     @valeriy-dev

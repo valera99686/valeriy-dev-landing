@@ -1,0 +1,15 @@
+services:
+  api:
+    build: .
+    container_name: valeriy-dev-contact-api
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+      - TELEGRAM_CHAT_ID=${TELEGRAM_CHAT_ID}
+      - ALLOWED_ORIGINS=${ALLOWED_ORIGINS:-https://valeriy-dev.xyz}
+      - RATE_LIMIT_PER_HOUR=${RATE_LIMIT_PER_HOUR:-5}
+      - DB_PATH=/app/data/submissions.db
+    volumes:
+      - ./data:/app/data

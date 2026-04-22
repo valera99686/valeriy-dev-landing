@@ -1,0 +1,8 @@
+# Copy to terraform.tfvars (ignored by git) and fill in real values.
+region              = "eu-central-1"
+environment         = "prod"
+image_tag           = "latest"
+telegram_bot_token  = "123456:ABCDEF..."
+telegram_chat_id    = "000000000"
+allowed_origins     = "https://valeriy-dev.xyz"
+rate_limit_per_hour = 5

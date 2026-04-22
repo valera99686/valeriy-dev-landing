@@ -1,0 +1,12 @@
+/* TEAM */
+Founder & Engineering: Valeriy
+Contact: admin [at] valeriy-dev.xyz
+Location: Europe
+
+/* SITE */
+Last update: 2026
+Language: English
+Doctype: HTML5
+Standards: WCAG 2.1 AA, CSP, HSTS
+Components: FastAPI, AWS Lambda, Anthropic Claude, Telegram Bot API
+Software: vanilla HTML5 / CSS3 / JS, Three.js (lazy), Python 3.12, Terraform
